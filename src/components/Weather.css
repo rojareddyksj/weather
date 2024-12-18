@@ -1,0 +1,87 @@
+/* .app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-form {
+  margin: 20px 0;
+}
+
+.weather-form input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.weather-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-form button:hover {
+  background-color: #45a049;
+}
+
+.weather-dashboard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+} */
+
+.weather-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.weather-form {
+  display: flex;
+  gap: 10px; /* Adds spacing between the input and button */
+  align-items: center;
+}
+
+.weather-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.weather-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-form button:hover {
+  background-color: #0056b3;
+}
+
+.weather-info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
