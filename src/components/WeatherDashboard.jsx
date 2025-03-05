@@ -12,7 +12,7 @@ const WeatherDashboard = ({ weatherData, loading, error }) => {
         <strong>Temperature:</strong> {weatherData.temperature}°C
       </p>
       <p>
-        <strong>Condition:</strong> {weatherData.condition}
+        <strong>Conditi:</strong> {weatherData.condition}
       </p>
       <p>
         <strong>Humidity:</strong> {weatherData.humidity}%
