@@ -1,7 +1,7 @@
 import "./Weather.css";
 
 const WeatherDashboard = ({ weatherData, loading, error }) => {
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading</p>;
   if (error) return <p className="error">{error}</p>;
   if (!weatherData) return <p>Please enter a city to see the weather.</p>;
 
